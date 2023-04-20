@@ -113,7 +113,16 @@ var b97 = document.querySelector('#p93');b97.addEventListener('click', function(
 var b98 = document.querySelector('#p94');b98.addEventListener('click', function() {counter++; if (counter === 1) {y=94;r94.src =x4;} else if (counter === 2) {w=94;d();}});
 var b99 = document.querySelector('#p95');b99.addEventListener('click', function() {counter++; if (counter === 1) {y=95;r95.src =x4;} else if (counter === 2) {w=95;d();}});
 var b100 = document.querySelector('#p96');b100.addEventListener('click', function() {counter++; if (counter === 1) {y=96;r96.src =x4;} else if (counter === 2) {w=96;d();}});
- 
+
+var b101 = document.querySelector('#p97');b101.addEventListener('click', function() {counter++; if (counter === 1) {y=97;r97.src =x4;} else if (counter === 2) {w=97;d();}});
+var b102 = document.querySelector('#p98');b102.addEventListener('click', function() {counter++; if (counter === 1) {y=98;r98.src =x4;} else if (counter === 2) {w=98;d();}});
+var b103 = document.querySelector('#p99');b103.addEventListener('click', function() {counter++; if (counter === 1) {y=99;r99.src =x4;} else if (counter === 2) {w=99;d();}});
+var b104 = document.querySelector('#p100');b104.addEventListener('click', function() {counter++; if (counter === 1) {y=100;r100.src =x4;} else if (counter === 2) {w=100;d();}});
+
+
+
+
+
 for (let i = 1; i <= 100; i++) {
   window[`r${i}`] = document.getElementById(`r${i}`);
 }
